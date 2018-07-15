@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO APP</title>
+<!--*********************************FIREBASE***************************************-->
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCdRhpeHWulYhWOWTXh8FXkvvCQO1eha_8",
+    authDomain: "practice1-edaa8.firebaseapp.com",
+    databaseURL: "https://practice1-edaa8.firebaseio.com",
+    projectId: "practice1-edaa8",
+    storageBucket: "practice1-edaa8.appspot.com",
+    messagingSenderId: "650349111715"
+  };
+  firebase.initializeApp(config);
+</script>
+<!--*********************************FIREBASE***************************************-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body background="yo.jpg">
+
+<h1>Real time Quiz App</h1>
+
+    <!--<input type="text" id ='demo'>
+<button onclick="add()">ADD</button>
+
+<ul id="list"></ul>-->
+    <!-- input -->
+    <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="Checkbox for following text input">
+      </span>
+      <input type="text" id="demo" class="form-control" aria-label="Text input with checkbox">
+      <!-- add button -->
+      <button type="button" class="btn btn-primary" onclick="add()">Add</button>
+    </div>
+
+    <ul id="list" class="list-group">
+
+    </ul>
+
+
+
+
+
+
+    <script src="app.js">     
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
